@@ -11,7 +11,7 @@ vim.filetype.add {
     ign = "json",
 
     -- HCL/Terraform/Packer
-    hcl = "terraform",
+    -- hcl = "terraform",
     tf = "terraform",
     zone = "bindzone",
   },
