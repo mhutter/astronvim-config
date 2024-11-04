@@ -12,6 +12,7 @@ return {
         -- add more arguments for adding more language servers
         "gopls",
         "jsonnet_ls",
+        "nil_ls",
         "rust_analyzer",
       },
     },
@@ -25,7 +26,6 @@ return {
         "stylua",
         -- add more arguments for adding more null-ls sources
         "hclfmt",
-        "nixpkgs-fmt",
         "prettier",
       },
     },
