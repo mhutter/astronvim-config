@@ -43,15 +43,15 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
-      nil_ls = {
-        settings = {
-          ["nil"] = {
-            formatting = {
-              command = { "nixfmt" },
-            },
-          },
-        },
-      },
+      -- nil_ls = {
+      --   settings = {
+      --     ["nil"] = {
+      --       formatting = {
+      --         command = { "nixfmt" },
+      --       },
+      --     },
+      --   },
+      -- },
     },
     -- customize how language servers are attached
     handlers = {
