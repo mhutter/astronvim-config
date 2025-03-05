@@ -11,7 +11,6 @@ return {
         "lua_ls",
         -- add more arguments for adding more language servers
         "gopls",
-        "jsonnet_ls",
         "nil_ls",
         "rust_analyzer",
       },
