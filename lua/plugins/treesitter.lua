@@ -12,6 +12,7 @@ return {
       "hcl",
       "jsonnet",
       "rust",
+      "toml",
     },
   },
 }
