@@ -10,6 +10,18 @@ return {
     event = { "BufReadPre", "BufNewFile" },
     ft = { "\\cjustfile", "*.just", ".justfile" },
   },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   cmd = "Copilot",
+  --   event = "InsertEnter",
+  --   config = function()
+  --     require("copilot").setup {
+  --       suggestion = {
+  --         auto_trigger = true,
+  --       },
+  --     }
+  --   end,
+  -- },
 
   -- == Examples of Adding Plugins ==
 
