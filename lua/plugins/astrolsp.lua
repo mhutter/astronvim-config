@@ -39,7 +39,11 @@ return {
     servers = {
       -- "pyright"
       --
+      "gopls",
       "jsonnet_ls",
+      "lua_ls",
+      "nil_ls",
+      "rust_analyzer",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
