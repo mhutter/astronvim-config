@@ -8,7 +8,11 @@ return {
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
       ensure_installed = {
+        -- "lua_ls",
         -- add more arguments for adding more language servers
+        -- "gopls",
+        -- "jsonnet_ls",
+        -- "nil_ls",
       },
     },
   },
@@ -18,10 +22,10 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = {
-        "stylua",
+        -- "stylua",
         -- add more arguments for adding more null-ls sources
-        "prettier",
-        "nixpkgs-fmt",
+        -- "prettier",
+        -- "nixpkgs-fmt",
       },
     },
   },
