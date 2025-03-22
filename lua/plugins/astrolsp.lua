@@ -54,7 +54,7 @@ return {
         settings = {
           ["nil"] = {
             formatting = {
-              command = { "nixfmt" },
+              command = { "nixpkgs-fmt" },
             },
           },
         },
