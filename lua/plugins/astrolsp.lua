@@ -45,6 +45,10 @@ return {
       "lua_ls",
       "nil_ls",
       "rust_analyzer",
+      -- temporary
+      -- "emmet_language_server",
+      -- "java_language_server",
+      -- "ts_ls",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
@@ -55,6 +59,15 @@ return {
           ["nil"] = {
             formatting = {
               command = { "nixfmt" },
+            },
+          },
+        },
+      },
+      rust_analyzer = {
+        settings = {
+          ["rust-analyzer"] = {
+            cargo = {
+              features = "all",
             },
           },
         },
