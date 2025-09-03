@@ -38,17 +38,20 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       "lua_ls",
-      -- "pyright"
-      --
+
       "gopls",
       "jsonnet_ls",
       "lua_ls",
       "nil_ls",
       "rust_analyzer",
       -- temporary
+      -- "terraformls",
+      -- "tofu_ls", -- not supported with current lspconfig version
       -- "emmet_language_server",
       -- "java_language_server",
       -- "ts_ls",
+      -- "svelte",
+      -- "pylsp",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
