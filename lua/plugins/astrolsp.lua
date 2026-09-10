@@ -49,7 +49,7 @@ return {
       -- "tofu_ls", -- not supported with current lspconfig version
       -- "emmet_language_server",
       -- "java_language_server",
-      -- "ts_ls",
+      "ts_ls",
       -- "svelte",
       -- "pylsp",
     },
